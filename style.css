@@ -1,0 +1,22 @@
+#game-container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #000;
+}
+
+#player {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+#enemy {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+}
